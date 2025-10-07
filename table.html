@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style_tabel.css">
+    <mains>
+        <table>
+            <tr>
+                <th colspan="2">Pietro</th>
+                <th>Guedes</th>
+            </tr>
+            <tr>
+                <td>R$34,55</td>
+                <td>R$111.111,11</td>
+                <td>R$23.345,54</td>
+            </tr>
+        </table>
+        <label for="estado">Estado:</label>
+        <select name="estado" id="estado">
+            <option value="">Selecione...</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+        </select>
+        <p>Quais tecnologias você conhece?</p>
+        <input type="checkbox" id="html" name="tecnologias" value="html">
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" id="css" name="tecnologias" value="css">
+        <label for="css">CSS</label><br>
+
+        <input type="checkbox" id="js" name="tecnologias" value="javascript">
+        <label for="js">JavaScript</label><br>
+        <button type="submit">Enviar Cadastro</button>
+        <button type="reset">Limpar Tudo</button>
+        <fieldset>
+            <legend>Informações de Login</legend>
+
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario"><br><br>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+        </fieldset>
+        <label for="nome_completo">Nome Completo:</label>
+<input type="text" id="nome_completo" name="nome_completo" required minlength="8">
+<label for="cep">CEP:</label>
+<input type="text" id="cep" name="cep" pattern="[0-9]{5}-[0-9]{3}" placeholder="00000-000">
+    </mains>
+</body>
+
+</html>

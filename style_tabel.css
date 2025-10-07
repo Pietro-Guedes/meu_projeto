@@ -1,0 +1,21 @@
+table {
+    border: 1px solid black;
+    width: 500px;
+    border-spacing: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table > td{
+    padding: 180px;
+    text-align: center;
+    border:solid black 
+}
+
+tr{
+    background-color: #90ba83;
+}
+
+th{
+    border:1px
+}
